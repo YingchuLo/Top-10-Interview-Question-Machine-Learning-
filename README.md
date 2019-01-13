@@ -76,7 +76,16 @@ scaling) give interesting views of the data.
 ## 4). Please describe the difference between GBM tree model and Random Forest.
 
 ## 5). What is SVM? what parameters you will need to tune during model training? How is different kernel changing the classification result?
+Maximum Margin
+![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%2010.15.47%20AM.png)
 
+
+How to select Kernel?
+(Reference: https://stats.stackexchange.com/questions/18030/how-to-select-kernel-for-svm?rq=1)
+
+The choice of the kernel and kernel/regularisation parameters can be automated by optimising a cross-valdiation based model selection (or use the radius-margin or span bounds). The simplest thing to do is to minimise a continuous model selection criterion using the Nelder-Mead simplex method, which doesn't require gradient calculation and works well for sensible numbers of hyper-parameters. If you have more than a few hyper-parameters to tune, automated model selection is likely to result in severe over-fitting, due to the variance of the model selection criterion. It is possible to use gradient based optimization, but the performance gain is not usually worth the effort of coding it up).
+
+Automated choice of kernels and kernel/regularization parameters is a tricky issue, as it is very easy to overfit the model selection criterion (typically cross-validation based), and you can end up with a worse model than you started with. Automated model selection also can bias performance evaluation, so make sure your performance evaluation evaluates the whole process of fitting the model (training and model selection)
 
 ## 6). Briefly rephrase PCA in your own way. How does it work? And tell some goods and bads about it.
 
