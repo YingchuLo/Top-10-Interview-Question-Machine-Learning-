@@ -116,7 +116,9 @@ Logistic regression is a model where the response is a 0-1 (categorical) variabl
 ##### 
 ##### ROC curve
 No matter the original data is class balance or class imbalance, it will not change how it look like in ROC Curve.
+
 ![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%205.35.44%20PM.png)
+
 (a) is the ROC curve with class balance as shown in (b)
 (c) is the ROC curve with class imbalance as shown in (d)
 ## 10). What would you do if you have > 30% missing value in an important field before building the model?
