@@ -115,7 +115,12 @@ Logistic regression is a model where the response is a 0-1 (categorical) variabl
 ### Confusion Matrix
 
 ### F1-score 
-### ROC curve
+### ROC(Receiver Operating Characteristic) curve
+
+#### What's ROC?
+ROC evaluate model performance based on the area under curve (AUC). Higher the PRC-AUC, better the model is at predicting 0s as 0s and 1s as 1s.
+
+#### Advantage of ROC
 No matter the original data is class balance or class imbalance, it will not change how it look like in ROC Curve.
 
 ![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%205.35.44%20PM.png)
@@ -125,6 +130,11 @@ No matter the original data is class balance or class imbalance, it will not cha
 
 ### PRC (Precision-Recall Curve)
 
+#### What's PRC?
+PRC is similar to ROC. Both evaluate model performance based on the area under curve (AUC). Higher the PRC-AUC, better the model is at predicting 0s as 0s and 1s as 1s. The curve of ideal model is closest to the right corner(precision=1， recall=1).
+![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%2011.16.46%20PM.png)
+
+#### Advantage of PRC
 
 ## 10). What would you do if you have > 30% missing value in an important field before building the model?
 
