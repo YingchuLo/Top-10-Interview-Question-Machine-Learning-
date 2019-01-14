@@ -88,9 +88,17 @@ The choice of the kernel and kernel/regularisation parameters can be automated b
 Automated choice of kernels and kernel/regularization parameters is a tricky issue, as it is very easy to overfit the model selection criterion (typically cross-validation based), and you can end up with a worse model than you started with. Automated model selection also can bias performance evaluation, so make sure your performance evaluation evaluates the whole process of fitting the model (training and model selection)
 
 ## 6). Briefly rephrase PCA in your own way. How does it work? And tell some goods and bads about it.
+PCA is a technique that seeks a m - dimensional basis that best captures the variance in the data.
+![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%204.27.52%20PM.png)
+
+##### Reduce number of features for data understanding and modeling
+- Not always a good practice, since each principal conponent contains all original variables, and interpretability of model is significantly reduced.
+- Feature (in original space)selection is preferable for better interpretability purpose.
 
 ## 7). Why doesn't logistic regression use R^2?
+
 ## 8). When will you use L1 regularization compared to L2?
+
 ## 9). List out at least 4 metrics you will use to evaluate model performance and tell the advantage for each of them. (F1 score, ROC curve, recall, etc…)
 ## 10). What would you do if you have > 30% missing value in an important field before building the model?
 
