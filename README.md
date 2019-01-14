@@ -97,6 +97,18 @@ PCA is a technique that seeks a m - dimensional basis that best captures the var
 
 ## 7). Why doesn't logistic regression use R^2?
 
+R-squared is the result of the ANOVA decomposition,   SSTot = SSE + SSR  
+
+where SSE is the error sum of squares, SSR is the regression sum of squares.   
+
+Divide that equation by SSTot and the last term in the right hand side is the R-squared.
+
+It measures the proportion of variation of the response Y explained by the regression model.
+
+
+For a 0-1 variable that decomposition does not apply.  As a result, R-square do not, as well.
+
+Logistic regression is a model where the response is a 0-1 (categorical) variable.
 ## 8). When will you use Lasso(L1) regularization compared to Ridge(L2)?
 
 ## 9). List out at least 4 metrics you will use to evaluate model performance and tell the advantage for each of them. (F1 score, ROC curve, recall, etc…)
