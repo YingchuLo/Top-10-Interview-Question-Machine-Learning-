@@ -110,6 +110,12 @@ For a 0-1 variable that decomposition does not apply.  As a result, R-square do 
 
 Logistic regression is a model where the response is a 0-1 (categorical) variable.
 ## 8). When will you use Lasso(L1) regularization compared to Ridge(L2)?
+(Reference: Speech and Language Processing, Book by Daniel Jurafsky and James H. Martin)
+
+### L2 > L1, get easier derivative
+### L1 > L2, get fewer feature
+
+L2 is easier to optimize because of its simple derivative (the derivative of w^2 is just 2w), while L1 is more complex (the derivative of |w| is non-continuous at zero.) But where L2 prefers weight vectors with many small weights, L1 prefers sparse solutions with some larger weights but many more weights set to zero. Thus, L1 leads to much sparser weight vectors, that is, far fewer features. 
 
 ## 9). List out at least 4 metrics you will use to evaluate model performance and tell the advantage for each of them. (F1 score, ROC curve, recall, etc…)
 ### Confusion Matrix
