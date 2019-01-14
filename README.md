@@ -112,15 +112,20 @@ Logistic regression is a model where the response is a 0-1 (categorical) variabl
 ## 8). When will you use Lasso(L1) regularization compared to Ridge(L2)?
 
 ## 9). List out at least 4 metrics you will use to evaluate model performance and tell the advantage for each of them. (F1 score, ROC curve, recall, etc…)
-##### Confusion Matrix
-##### 
-##### ROC curve
+### Confusion Matrix
+
+### F1-score 
+### ROC curve
 No matter the original data is class balance or class imbalance, it will not change how it look like in ROC Curve.
 
 ![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%205.35.44%20PM.png)
 
 (a) is the ROC curve with class balance as shown in (b)
 (c) is the ROC curve with class imbalance as shown in (d)
+
+### PRC (Precision-Recall Curve)
+
+
 ## 10). What would you do if you have > 30% missing value in an important field before building the model?
 
 Reference:
