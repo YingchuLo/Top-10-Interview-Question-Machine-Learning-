@@ -14,7 +14,6 @@ Overfitting: The model has tried to capture the sampling error. The model has le
 ![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/Screen%20Shot%202019-01-11%20at%2010.52.22%20AM.png)
 
 
-
 ### Bias and variance tradeoff
 
 
@@ -37,7 +36,7 @@ Overfitting: The model has tried to capture the sampling error. The model has le
 - Dimensionality Reduction: project the data into a lower dimensional space
 
 Dimension Curse: When the dimensionality increases, the volume of the space increases so fast that the available data become sparse.
-How to prevent? Principal Component
+How to prevent? Principal Component Analysis (PCA)
 
 
 
@@ -143,6 +142,8 @@ PRC is similar to ROC. Both evaluate model performance based on the area under c
 #### Advantage of PRC
 
 ## 10). What would you do if you have > 30% missing value in an important field before building the model?
+
+![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-15%20at%209.45.09%20AM.png)
 
 Reference:
 BitTiger DS 501 Data Scientist Express Bootcamp
