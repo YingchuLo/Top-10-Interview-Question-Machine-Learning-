@@ -48,7 +48,7 @@ How to prevent? Principal Component Analysis (PCA)
 ## 3). Please briefly describe the Random Forest classifier. How did it work? Any pros and cons in practical implementation?
 (Reference: BitTiger DS 501 Data Scientist Express Bootcamp)
 
-Random Forest Classifier could be seen as a cpmbination of several individual trees. At each tree split, a random sample of m features is drawn. For the output, if more than half of the trees predict 1 class (label 0/1), random forest predicts 1 class.
+Random Forest Classifier could be seen as a combination of several individual trees. At each tree split, a random sample of m features is drawn. For the output, if more than half of the trees predict 1 class (label 0/1), random forest predicts 1 class.
 
 ![](https://github.com/YingchuLo/Top-10-Interview-Question-Machine-Learning-/blob/master/image/Screen%20Shot%202019-01-13%20at%2012.11.01%20AM.png)
 
