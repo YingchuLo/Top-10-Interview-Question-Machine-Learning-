@@ -55,7 +55,7 @@ Random Forest Classifier could be seen as a combination of several individual tr
 ### - Pros
 - One of the top performing algorithms without much tuning (easier to tune than boosting).
 - Runs efficiently on large data sets: intrinsically easy to parallel.
-- No feature transformation needed for nonlinear or non-monotonic features. (Logistic regression needs feature transformation, because Logistic regression is a linear model).
+- No feature transformation needed for nonlinear or non-monotonic features. (Logistic regression needs feature transformation, because Logistic regression is a linear model.)
 - Automatically addresses variable interactions. (Need to construct interaction terms for logistic regression).
 - Able to handle thousands of input variables without variable deletion: handles correlation and collinearity
 among features well. (Logistic regression needs regularization to repress feature collinearity).
@@ -66,9 +66,9 @@ among features well. (Logistic regression needs regularization to repress featur
 - It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by
 scaling) give interesting views of the data.
 ### - Cons
-- A good RF model needs
-- Deep trees are required to lower bias
-- Many trees are required to lower variance
+- A good RF model needs:
+  - Deep trees are required to lower bias
+  - Many trees are required to lower variance
 - Relative long time to train
 - Complex models (large files) to save for later use
 - May still have remnant overfitting effect left
